@@ -2,6 +2,7 @@ import React from "react";
 import "./Employee.css";
 
 function EmployeeCard(props) {
+  console.log(props)
   return (
     <div className="card">
       <div className="img-container">
@@ -17,6 +18,9 @@ function EmployeeCard(props) {
           </li>
           <li>
             <strong>Location:</strong> {props.location}
+          </li>
+          <li>
+            <strong>Species:</strong> {props.species}
           </li>
         </ul>
       </div>
