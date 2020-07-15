@@ -2,7 +2,6 @@ import React from "react";
 import "./Employee.css";
 
 function EmployeeCard(props) {
-  console.log(props)
   return (
     <div className="card">
       <div className="img-container">
